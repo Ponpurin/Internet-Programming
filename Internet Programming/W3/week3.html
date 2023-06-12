@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        .w1 {
+            background-color: lightpink;
+            color: white;
+            font-family:Courier;
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+        }
+        #i1 {
+            background-color: rgb(187, 250, 255);
+            color: black;
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+    <title>My Page Title</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>Dhanat</td>
+    <td>Srihirun</td>
+    <td>Thailand</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Phone</td>
+    <td colspan="2">0123456789</td>
+  </tr>
+  <tr>
+    <td colspan="2">1212312121</td>
+  </tr>
+</table>
+
+  <h2 class="w1">Hello world</h2>
+  <h2 id="i1">Internet programming</h2>
+
+  <h2>Responsive Image</h2>
+  <p>When the CSS width property is set in a percentage value, the image will scale up and down when resizing the browser window. Resize the browser window to see the effect.</p>
+  <p>"max-width:100%" prevents the image from getting bigger than its original size. However, if you make the browser window smaller, the image will still scale down.</p>
+  <img src="view1.jpg" style="max-width:50%;height:auto;">
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Boat</label><br>
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="Toyota">Volvo</option>
+    <option value="Honda">Saab</option>
+    <option value="BMW">Fiat</option>
+    <option value="Nissan">Audi</option>
+  </select>
+  <input type="submit"><br>
+  <input type="submit" value="Submit">
+  <input type="submit" value="Cancel">
+</form>
+  
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(143, 227, 255);
+    font-family: courier;
+    text-align: center;
+}
+h3 {
+    border:0.5px solid deepskyblue;
+}
+p {
+    color: rgb(255, 0, 0);
+}
